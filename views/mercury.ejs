@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Can't you see? I'm Mr. Mercury 
+    Spread your wings and fly away with me 
+
+    <% for (let f of mrFahrenheit) { %>
+        <li>
+            <%= f.id %> - 
+            <%= f.song %>
+        </li>
+        <a href="http://localhost:3000/mercury/<%=f.id%>">CLick me</a>
+   <% } %> 
+
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Cardi B! You know where I am, You know where I be! 
+
+    <% for (let c of money) {%>
+        <li>
+    <%= c.id %> - 
+    <%= c.song %>
+    </li>   
+    <a href="http://localhost:3000/cardib/<%=c.id%>">Click Me!</a>
+   <% } %>
+
+</body>
+</html>

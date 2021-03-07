@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Lady Gaga, Lady Gaga, here we go
+    Cherry Cherry Boom Boom 
+
+    <% for (let l of gaga) { %>
+        <li>
+        <%= l.id %> - 
+        <%= l.song %> 
+        <a href="http://localhost:3000/ladygaga/<%=l.id%>">Click Me!</a>
+    </li>
+   <% } %>
+
+    
+</body>
+</html>
